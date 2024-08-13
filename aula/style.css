@@ -1,0 +1,41 @@
+/* Professor, primeira vez que uso o css. peço desculpa pela a bagunça*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f8ff;
+    font-style: italic;
+    height: 100vh;
+    margin: 0;  
+}
+
+h1, h2, h4 {
+    color: #2c3e50;
+}
+
+.navigation-menu a {
+    font-style: normal;
+    margin-bottom: 50px;
+    color: #2c3e50;
+}
+
+.navigation-menu a:hover {
+    color: #2ecc71;
+}
+
+.support-content {
+   text-align: center;
+   max-width: 600px;
+   font-style: italic;
+   background-color: #ecf0f1;
+   padding: 20px;
+   border-radius: 8px;
+   border: 1px solid #bdc3c7;
+}
+
+#teste {
+    color: #2c3e50;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
